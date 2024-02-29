@@ -1,0 +1,65 @@
+/*pada home*/
+ul,p, h1,h2,h3,h4{
+    list-style-type: none; padding-left: 0;
+    text-align: justify;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Courier, monospace;
+    font-size: 12pt;
+}
+div{
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+/*pada gallery*/
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .image-container img {
+    width: 250px; 
+    height: 250px; 
+    margin: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+  }
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  /*pada leftcontent*/
+.left{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    font-weight: bold;
+    background-color: white;
+}
+  /*pada rightcontent*/
+  .right{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 14px;
+    font-weight: bold;
+    background-color: white;}
+  
+
+  
+
+    
+  
+
+
+  
+  
+  
+  
+
+  
